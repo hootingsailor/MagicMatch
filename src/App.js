@@ -37,13 +37,16 @@ function App() {
 	useEffect(() => {
 		if(choiceOne && choiceTwo){
 			if(choiceOne.src === choiceTwo.src){
-				
+				resetTurn()
+			}
+			else{
+				resetTurn()
 			}
 		}
 	}, [choiceOne, choiceTwo])
 
 	// reset choice and increase turn
-	const resetTurns = ()=> {
+	const resetTurn = ()=> {
 		setChoiceOne(null)
 		setChoiceTwo(null)
 		setTurns(prevturns => prevturns + 1)
