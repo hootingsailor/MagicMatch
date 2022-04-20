@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MagicMatch/static/css/main.e02ebf56.css",
+    "main.js": "/MagicMatch/static/js/main.ed84f2eb.js",
+    "index.html": "/MagicMatch/index.html",
+    "main.e02ebf56.css.map": "/MagicMatch/static/css/main.e02ebf56.css.map",
+    "main.ed84f2eb.js.map": "/MagicMatch/static/js/main.ed84f2eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e02ebf56.css",
+    "static/js/main.ed84f2eb.js"
+  ]
+}
